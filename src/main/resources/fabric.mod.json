@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "somsom-visuals",
+  "version": "1.0.0",
+  "name": "Somsom Visuals",
+  "description": "Client visual mod for Minecraft",
+  "authors": [
+    "vibecoderlol-web"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.somsom.visuals.SomsomVisualsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "*"
+  }
+}
